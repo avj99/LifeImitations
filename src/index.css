@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Dancing+Script:wght@400;500;600;700&family=Allura&family=Great+Vibes&family=Pinyon+Script&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-cursive: 'Dancing Script', cursive;
+  
+  --color-nature-50: #f0f9f4;
+  --color-nature-100: #dcf4e3;
+  --color-nature-200: #bce8cc;
+  --color-nature-300: #8fd5a8;
+  --color-nature-400: #5ab87d;
+  --color-nature-500: #369962;
+  --color-nature-600: #277d4f;
+  --color-nature-700: #216442;
+  --color-nature-800: #1e5037;
+  --color-nature-900: #1a422f;
+}
 
 @layer base {
   body {

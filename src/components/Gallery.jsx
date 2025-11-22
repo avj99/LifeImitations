@@ -16,7 +16,7 @@ const Gallery = () => {
       id: 2,
       title: "Field of Daisies",
       category: "Floral",
-      image: "/public/TexturedDaisiesNY.JPG",
+      image: "/TexturedDaisiesNY.JPG",
       description: "Creamy white daisies with rich green foliage",
       size:  "4″ X 4″",
       featured: true
@@ -25,7 +25,7 @@ const Gallery = () => {
       id: 3,
       title: "Elegance",
       category: "Floral",
-      image: "/public/Elegance.jpeg",
+      image: "/Elegance.jpeg",
       description: "Soft champagne and pink flower with shimmering gold leaf accents",
       size: "10″ X 10″",
       featured: true
@@ -34,7 +34,7 @@ const Gallery = () => {
       id: 4,
       title: "Ethereal Decay",
       category: "Floral",
-      image: "/public/Ethereal Decay.JPG",
+      image: "/Ethereal Decay.JPG",
       description: "Textured white flower on weathered wood with gold leaf foliage",
       size: "18″ X 24″",
       featured: true
@@ -43,7 +43,7 @@ const Gallery = () => {
       id: 5,
       title: "Ruidus",
       category: "Celestial",
-      image: "/public/Ruidus.jpeg",
+      image: "/Ruidus.jpeg",
       description: "Red moon",
       size: "8″ X 8″ each block",
       status: "Sold",
@@ -54,7 +54,7 @@ const Gallery = () => {
       id: 6,
       title: "Setting Sail",
       category: "Seascape",
-      image: "/public/SettingSail.jpeg",
+      image: "/SettingSail.jpeg",
       description: "Ocean wave with seagull in flight",
       size: "22″ X 28″",
       featured: true
@@ -63,7 +63,7 @@ const Gallery = () => {
       id: 7,
       title: "Sonder",
       category: "Portrait",
-      image: "/public/Sonder.jpeg",
+      image: "/Sonder.jpeg",
       description: "Abstract textured portrait with striking turquoise eyes",
       size: "5′ X 4′",
       commissioned: true,
